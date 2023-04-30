@@ -18,7 +18,7 @@ public class Driver {
 	            fileDataEncrypted = aes_encryption.encryptFile(fileData);
 	            
 	            
-	            System.out.println("Orginial file bytes as string: \t\t" + aes_encryption.encode(fileData));
+	            System.out.println("Original file bytes as string: \t\t" + aes_encryption.encode(fileData));
 	            
 	            System.out.println("AES Encrypted file bytes as string: \t" + aes_encryption.encode(fileDataEncrypted));
 	            
